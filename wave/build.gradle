@@ -102,6 +102,9 @@ repositories {
     maven {
         url 'https://oss.sonatype.org/content/repositories/google-snapshots/'
     }
+    maven {
+	url 'https://maven.repository.redhat.com/nexus/content/groups/developer/'
+    }
 }
 
 dependencies {
